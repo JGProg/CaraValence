@@ -1,0 +1,50 @@
+\beamer@endinputifotherversion {3.20pt}
+\headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
+\headcommand {\beamer@framepages {1}{1}}
+\headcommand {\partentry {CaraValence}{1}}
+\headcommand {\beamer@partpages {1}{1}}
+\headcommand {\beamer@sectionpages {1}{1}}
+\headcommand {\beamer@subsectionpages {1}{1}}
+\headcommand {\slideentry {0}{0}{2}{2/2}{}{1}}
+\headcommand {\beamer@framepages {2}{2}}
+\headcommand {\slideentry {0}{0}{3}{3/4}{}{1}}
+\headcommand {\beamer@framepages {3}{4}}
+\headcommand {\sectionentry {1}{Test d'acceptance}{5}{Test d'acceptance}{1}}
+\headcommand {\beamer@sectionpages {2}{4}}
+\headcommand {\beamer@subsectionpages {2}{4}}
+\headcommand {\beamer@subsectionentry {1}{1}{1}{5}{Diff\'erence entre tests unitaire et tests d'acceptances}}\headcommand {\beamer@subsectionpages {5}{4}}
+\headcommand {\slideentry {1}{1}{1}{5/7}{Diff\'erence entre tests unitaire et tests d'acceptances}{1}}
+\headcommand {\beamer@framepages {5}{7}}
+\headcommand {\beamer@subsectionentry {1}{1}{2}{8}{Sch\'ema}}\headcommand {\beamer@subsectionpages {5}{7}}
+\headcommand {\slideentry {1}{2}{1}{8/8}{Sch\'ema}{1}}
+\headcommand {\beamer@framepages {8}{8}}
+\headcommand {\sectionentry {2}{L'automatisation}{9}{Automatisation}{1}}
+\headcommand {\beamer@sectionpages {5}{8}}
+\headcommand {\beamer@subsectionpages {8}{8}}
+\headcommand {\beamer@subsectionentry {1}{2}{1}{9}{Son utilit\'e}}\headcommand {\beamer@subsectionpages {9}{8}}
+\headcommand {\slideentry {2}{1}{1}{9/9}{Son utilit\'e}{1}}
+\headcommand {\beamer@framepages {9}{9}}
+\headcommand {\beamer@subsectionentry {1}{2}{2}{10}{Automatisation}}\headcommand {\beamer@subsectionpages {9}{9}}
+\headcommand {\slideentry {2}{2}{1}{10/10}{Automatisation}{1}}
+\headcommand {\beamer@framepages {10}{10}}
+\headcommand {\sectionentry {3}{FitNesse}{11}{FitNesse}{1}}
+\headcommand {\beamer@sectionpages {9}{10}}
+\headcommand {\beamer@subsectionpages {10}{10}}
+\headcommand {\beamer@subsectionentry {1}{3}{1}{11}{Principe}}\headcommand {\beamer@subsectionpages {11}{10}}
+\headcommand {\slideentry {3}{1}{1}{11/11}{Principe}{1}}
+\headcommand {\beamer@framepages {11}{11}}
+\headcommand {\beamer@subsectionentry {1}{3}{2}{12}{Mise en oeuvre}}\headcommand {\beamer@subsectionpages {11}{11}}
+\headcommand {\slideentry {3}{2}{1}{12/12}{Mise en oeuvre}{1}}
+\headcommand {\beamer@framepages {12}{12}}
+\headcommand {\beamer@subsectionentry {1}{4}{1}{13}{}}\headcommand {\beamer@subsectionpages {13}{12}}
+\headcommand {\beamer@subsectionentry {1}{4}{2}{13}{D\'emonstration}}\headcommand {\beamer@subsectionpages {13}{12}}
+\headcommand {\slideentry {4}{2}{1}{13/13}{D\'emonstration}{1}}
+\headcommand {\beamer@framepages {13}{13}}
+\headcommand {\beamer@subsectionentry {1}{5}{1}{14}{}}\headcommand {\beamer@subsectionpages {14}{13}}
+\headcommand {\slideentry {5}{1}{1}{14/14}{}{1}}
+\headcommand {\beamer@framepages {14}{14}}
+\headcommand {\beamer@partpages {2}{14}}
+\headcommand {\beamer@subsectionpages {14}{14}}
+\headcommand {\beamer@sectionpages {14}{14}}
+\headcommand {\beamer@documentpages {14}}
+\headcommand {\def \inserttotalframenumber {11}}

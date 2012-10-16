@@ -1,0 +1,22 @@
+!3 !-slim-!
+|'''Date: '''|!-9:35:22 PM (CEST) on lundi, septembre 10, 2012-!|
+|'''Test Page: '''|.TestAcceptance|
+|'''Command: '''|!-java -cp fitnesse.jar:classes:test.jar:fitnesse.jar fitnesse.slim.SlimService  8087-!|
+|'''Exit code: '''|!-0-!|
+|'''Time elapsed: '''|!-0.29 seconds-!|
+----'''Standard Output:'''
+{{{LISBN ?def
+dejfetdefd
+Document trouv
+Document trouv
+Livre find ?Document [isbn=dejf, nomAuteur=Test, emprunt=false]
+Paul
+dejfetdefd
+Document trouv
+Document trouv
+Passe  true ?true
+bolean 1 true
+BOuoelatrue
+---------Affichage de tous les documents dans la bibliothèque
+Document [isbn=dejf, nomAuteur=Test, emprunt=true]
+}}}

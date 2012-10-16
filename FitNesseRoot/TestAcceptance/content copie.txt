@@ -1,0 +1,15 @@
+!define TEST_SYSTEM {slim}
+
+|import| 
+|tests.fixtures|
+
+!path classes
+!path test.jar
+!path fitnesse.jar
+
+
+
+|script|Fixture Bibliotheque|Paul|Jean|
+|Ajouter Livre|def|
+|Emprunt|def|
+|check| Affiche|kdj|

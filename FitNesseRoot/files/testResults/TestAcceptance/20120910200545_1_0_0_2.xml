@@ -1,0 +1,193 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20111026</FitNesseVersion>
+  <rootPath>TestAcceptance</rootPath>
+    <result>
+    <counts>
+      <right>1</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>2</exceptions>
+    </counts>
+    <runTimeInMillis>21</runTimeInMillis>
+    <content><![CDATA[<div class="collapse_rim">
+	<div style="float: right;" class="meta">
+		<a href="javascript:expandAll();">Expand All</a>
+ | 
+		<a href="javascript:collapseAll();">Collapse All</a>
+	</div>
+	<a href="javascript:toggleCollapsable('34');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img34"/>
+	</a>
+&nbsp;
+	<span class="meta">Precompiled Libraries</span>
+	<div class="hidden" id="34"><br/></div>
+</div>
+<span class="meta">variable defined: TEST_SYSTEM=slim</span>
+<br/><br/><table border="1" cellspacing="0" _TABLENUMBER=7725468335658749596>
+	<tr>
+		<td>import</td>
+	</tr>
+	<tr>
+		<td>tests.fixtures</td>
+	</tr>
+</table>
+<br/><span class="meta">classpath: classes</span><br/><span class="meta">classpath: test.jar</span><br/><span class="meta">classpath: fitnesse.jar</span><br/><br/><br/><br/><table border="1" cellspacing="0" _TABLENUMBER=307862813586806562>
+	<tr>
+		<td>script</td>
+		<td><span class="pass">Fixture Bibliotheque</span></td>
+		<td colspan="2">Salut</td>
+	</tr>
+	<tr>
+		<td><span class="pass">Ajouter Adherent</span></td>
+		<td colspan="3">Paul</td>
+	</tr>
+	<tr>
+		<td>Emprunt With Isbn And Nom And Prenom <span class="error">Method EmpruntWithIsbnAndNomAndPrenomPaul[2] not found in tests.fixtures.FixtureBibliotheque.</span></td>
+		<td>233</td>
+		<td>Paul</td>
+		<td>sjdj</td>
+	</tr>
+</table>
+]]></content>
+    <relativePageName>TestAcceptance</relativePageName>
+    
+        <tables>
+            <table>
+        <name>import_0</name>
+                <row>
+                    <col><![CDATA[import]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[tests.fixtures]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_1</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+                    <col><![CDATA[pass(Fixture Bibliotheque)]]></col>
+                    <col><![CDATA[Salut]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[pass(Ajouter Adherent)]]></col>
+                    <col><![CDATA[Paul]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Emprunt With Isbn And Nom And Prenom error(Method EmpruntWithIsbnAndNomAndPrenomPaul[2] not found in tests.fixtures.FixtureBibliotheque.)]]></col>
+                    <col><![CDATA[233]]></col>
+                    <col><![CDATA[Paul]]></col>
+                    <col><![CDATA[sjdj]]></col>
+          
+        </row>
+        
+      </table>
+      
+    </tables>
+    
+    
+    <instructions>
+            <instructionResult>
+        <instruction><![CDATA[[import_0_0, import, tests.fixtures]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_0, make, scriptTableActor, FixtureBibliotheque, Salut]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_1_0</instructionId>
+          <col>1</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[OK]]></actual>
+                              <expected><![CDATA[Fixture Bibliotheque]]></expected>
+                              <evaluationMessage><![CDATA[pass(Fixture Bibliotheque)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_1, call, scriptTableActor, AjouterAdherent, Paul]]]></instruction>
+        <slimResult><![CDATA[true]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_1</instructionId>
+          <col>2</col>
+          <row>0</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[true]]></actual>
+                              <expected><![CDATA[Salut]]></expected>
+                              <evaluationMessage><![CDATA[Salut]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_1</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_1_1</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[true]]></actual>
+                              <expected><![CDATA[Ajouter Adherent]]></expected>
+                              <evaluationMessage><![CDATA[pass(Ajouter Adherent)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_2, call, scriptTableActor, EmpruntWithIsbnAndNomAndPrenomPaul, 233, sjdj]]]></instruction>
+        <slimResult><![CDATA[!error:Method EmpruntWithIsbnAndNomAndPrenomPaul[2] not found in tests.fixtures.FixtureBibliotheque.]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_2</instructionId>
+          <col>1</col>
+          <row>2</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_2</instructionId>
+          <col>3</col>
+          <row>2</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_2</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[!error:Method EmpruntWithIsbnAndNomAndPrenomPaul[2] not found in tests.fixtures.FixtureBibliotheque.]]></actual>
+                              <expected><![CDATA[Emprunt With Isbn And Nom And Prenom]]></expected>
+                              <evaluationMessage><![CDATA[Emprunt With Isbn And Nom And Prenom error(Method EmpruntWithIsbnAndNomAndPrenomPaul[2] not found in tests.fixtures.FixtureBibliotheque.)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+      
+    </instructions>
+    
+  </result>
+  
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>0</totalRunTimeInMillis>
+  
+</testResults>
+

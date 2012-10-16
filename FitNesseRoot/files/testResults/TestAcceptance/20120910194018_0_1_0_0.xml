@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20111026</FitNesseVersion>
+  <rootPath>TestAcceptance</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>1</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>5</runTimeInMillis>
+    <content><![CDATA[<div class="collapse_rim">
+	<div style="float: right;" class="meta">
+		<a href="javascript:expandAll();">Expand All</a>
+ | 
+		<a href="javascript:collapseAll();">Collapse All</a>
+	</div>
+	<a href="javascript:toggleCollapsable('10');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img10"/>
+	</a>
+&nbsp;
+	<span class="meta">Precompiled Libraries</span>
+	<div class="hidden" id="10"><br/></div>
+</div>
+<div class="toc1">
+	<div class="contents">
+		<b>Contents:</b>
+		<ul/>
+	</div>
+</div>
+<br/><br/><span class="meta">variable defined: TEST_SYSTEM=slim</span>
+<br/><br/>path="test.jar"<br/>path="fitnesse.jar"<br/><br/><table border="1" cellspacing="0" _TABLENUMBER=2798333141473365614>
+	<tr>
+		<td>Import</td>
+	</tr>
+	<tr>
+		<td>fixtures</td>
+	</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=6421835527296272523>
+	<tr>
+		<td colspan="6"><span class="fail">fixture bibliotheque: Bad table: <br/><pre>fitnesse.slimTables.SlimTable$SyntaxError: DecisionTables should have at least three rows.
+	at fitnesse.slimTables.DecisionTable.appendInstructions(DecisionTable.java:23)
+	at fitnesse.slimTables.SlimTable.appendInstructions(SlimTable.java:87)
+	at fitnesse.responders.run.slimResponder.SlimTestSystem.createInstructions(SlimTestSystem.java:314)
+	at fitnesse.responders.run.slimResponder.SlimTestSystem.processTablesAndGetHtml(SlimTestSystem.java:296)
+	at fitnesse.responders.run.slimResponder.SlimTestSystem.processAllTablesOnPage(SlimTestSystem.java:283)
+	at fitnesse.responders.run.slimResponder.SlimTestSystem.runTestsAndGenerateHtml(SlimTestSystem.java:227)
+	at fitnesse.responders.run.MultipleTestsRunner.executeTestSystemPages(MultipleTestsRunner.java:140)
+	at fitnesse.responders.run.MultipleTestsRunner.startTestSystemAndExecutePages(MultipleTestsRunner.java:120)
+	at fitnesse.responders.run.MultipleTestsRunner.executePagesInTestSystem(MultipleTestsRunner.java:106)
+	at fitnesse.responders.run.MultipleTestsRunner.internalExecuteTestPages(MultipleTestsRunner.java:86)
+	at fitnesse.responders.run.MultipleTestsRunner.executeTestPages(MultipleTestsRunner.java:58)
+	at fitnesse.responders.run.TestResponder.performExecution(TestResponder.java:145)
+	at fitnesse.responders.run.TestResponder.doSending(TestResponder.java:45)
+	at fitnesse.responders.ChunkingResponder.startSending(ChunkingResponder.java:67)
+	at fitnesse.responders.ChunkingResponder.access$000(ChunkingResponder.java:17)
+	at fitnesse.responders.ChunkingResponder$RespondingRunnable.run(ChunkingResponder.java:106)
+	at java.lang.Thread.run(Thread.java:680)
+</pre></span></td>
+	</tr>
+	<tr>
+		<td>Emprunt With</td>
+		<td>Paul</td>
+		<td>And Isbn</td>
+		<td>djdj</td>
+		<td>And Prenom</td>
+		<td>sdjdsj</td>
+	</tr>
+</table>
+]]></content>
+    <relativePageName>TestAcceptance</relativePageName>
+    
+        <tables>
+            <table>
+        <name>import_0</name>
+                <row>
+                    <col><![CDATA[Import]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[fixtures]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>decisionTable_1</name>
+                <row>
+                    <col><![CDATA[<span class="fail">fixture bibliotheque: Bad table: <br/><pre>fitnesse.slimTables.SlimTable$SyntaxError: DecisionTables should have at least three rows.
+	at fitnesse.slimTables.DecisionTable.appendInstructions(DecisionTable.java:23)
+	at fitnesse.slimTables.SlimTable.appendInstructions(SlimTable.java:87)
+	at fitnesse.responders.run.slimResponder.SlimTestSystem.createInstructions(SlimTestSystem.java:314)
+	at fitnesse.responders.run.slimResponder.SlimTestSystem.processTablesAndGetHtml(SlimTestSystem.java:296)
+	at fitnesse.responders.run.slimResponder.SlimTestSystem.processAllTablesOnPage(SlimTestSystem.java:283)
+	at fitnesse.responders.run.slimResponder.SlimTestSystem.runTestsAndGenerateHtml(SlimTestSystem.java:227)
+	at fitnesse.responders.run.MultipleTestsRunner.executeTestSystemPages(MultipleTestsRunner.java:140)
+	at fitnesse.responders.run.MultipleTestsRunner.startTestSystemAndExecutePages(MultipleTestsRunner.java:120)
+	at fitnesse.responders.run.MultipleTestsRunner.executePagesInTestSystem(MultipleTestsRunner.java:106)
+	at fitnesse.responders.run.MultipleTestsRunner.internalExecuteTestPages(MultipleTestsRunner.java:86)
+	at fitnesse.responders.run.MultipleTestsRunner.executeTestPages(MultipleTestsRunner.java:58)
+	at fitnesse.responders.run.TestResponder.performExecution(TestResponder.java:145)
+	at fitnesse.responders.run.TestResponder.doSending(TestResponder.java:45)
+	at fitnesse.responders.ChunkingResponder.startSending(ChunkingResponder.java:67)
+	at fitnesse.responders.ChunkingResponder.access$000(ChunkingResponder.java:17)
+	at fitnesse.responders.ChunkingResponder$RespondingRunnable.run(ChunkingResponder.java:106)
+	at java.lang.Thread.run(Thread.java:680)
+</pre></span>]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Emprunt With]]></col>
+                    <col><![CDATA[Paul]]></col>
+                    <col><![CDATA[And Isbn]]></col>
+                    <col><![CDATA[djdj]]></col>
+                    <col><![CDATA[And Prenom]]></col>
+                    <col><![CDATA[sdjdsj]]></col>
+          
+        </row>
+        
+      </table>
+      
+    </tables>
+    
+    
+    <instructions>
+            <instructionResult>
+        <instruction><![CDATA[[import_0_0, import, fixtures]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+        
+      </instructionResult>
+      
+    </instructions>
+    
+  </result>
+  
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>0</totalRunTimeInMillis>
+  
+</testResults>
+

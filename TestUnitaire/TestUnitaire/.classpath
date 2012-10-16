@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="C:/Users/AMCCS5V5.5/Downloads/eclipse-SDK-3.7.1-win32-x86_64/eclipse/plugins/org.junit_3.8.2.v3_8_2_v20100427-1100/junit.jar" sourcepath="C:/Users/AMCCS5V5.5/Downloads/junit4.10/junit4.10/junit-4.10.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

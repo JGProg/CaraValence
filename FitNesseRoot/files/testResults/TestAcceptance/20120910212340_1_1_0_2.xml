@@ -1,0 +1,305 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20111026</FitNesseVersion>
+  <rootPath>TestAcceptance</rootPath>
+    <result>
+    <counts>
+      <right>1</right>
+      <wrong>1</wrong>
+      <ignores>0</ignores>
+      <exceptions>2</exceptions>
+    </counts>
+    <runTimeInMillis>24</runTimeInMillis>
+    <content><![CDATA[<div class="collapse_rim">
+	<div style="float: right;" class="meta">
+		<a href="javascript:expandAll();">Expand All</a>
+ | 
+		<a href="javascript:collapseAll();">Collapse All</a>
+	</div>
+	<a href="javascript:toggleCollapsable('69');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img69"/>
+	</a>
+&nbsp;
+	<span class="meta">Precompiled Libraries</span>
+	<div class="hidden" id="69"><br/></div>
+</div>
+<span class="meta">variable defined: TEST_SYSTEM=slim</span>
+<br/><br/><table border="1" cellspacing="0" _TABLENUMBER=2201814611560877329>
+	<tr>
+		<td>import</td>
+	</tr>
+	<tr>
+		<td>tests.fixtures</td>
+	</tr>
+</table>
+<br/><span class="meta">classpath: classes</span><br/><span class="meta">classpath: test.jar</span><br/><span class="meta">classpath: fitnesse.jar</span><br/><br/><br/><br/><div id="test_exceptions1"><H3> <span class="fail">Exceptions</span></H3><br/><a name="scriptTable_1_3"/><b></b><div class="collapse_rim"><div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div><a href="javascript:toggleCollapsable('-1082157996241308472');"><img src="/files/images/collapsableClosed.gif" class="left" id="img-1082157996241308472"/></a>&nbsp;<span class="meta">scriptTable_1_3 </span>
+
+	<div class="hidden" id="-1082157996241308472"><pre>__EXCEPTION__:java.lang.NullPointerException
+	at cmd.methode.unit.Bibliotheque.Emprunt(Bibliotheque.java:38)
+	at tests.fixtures.FixtureBibliotheque.Emprunt(FixtureBibliotheque.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at fitnesse.slim.MethodExecutor.callMethod(MethodExecutor.java:43)
+	at fitnesse.slim.MethodExecutor.invokeMethod(MethodExecutor.java:30)
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:53)
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18)
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:189)
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:179)
+	at fitnesse.slim.Statement.callMethodAtIndex(Statement.java:104)
+	at fitnesse.slim.Statement.call(Statement.java:97)
+	at fitnesse.slim.Statement.execute(Statement.java:77)
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:36)
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:81)
+	at fitnesse.slim.SlimServer.processTheInstructions(SlimServer.java:73)
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:57)
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:43)
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:30)
+	at fitnesse.socketservice.SocketService$ServerRunner.run(SocketService.java:95)
+	at java.lang.Thread.run(Thread.java:680)
+</pre></div>
+</div><a name="scriptTable_1_2"/><b></b><div class="collapse_rim"><div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div><a href="javascript:toggleCollapsable('6544361046809526151');"><img src="/files/images/collapsableClosed.gif" class="left" id="img6544361046809526151"/></a>&nbsp;<span class="meta">scriptTable_1_2 </span>
+
+	<div class="hidden" id="6544361046809526151"><pre>__EXCEPTION__:java.lang.NullPointerException
+	at cmd.methode.unit.Bibliotheque.Emprunt(Bibliotheque.java:38)
+	at tests.fixtures.FixtureBibliotheque.Emprunt(FixtureBibliotheque.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at fitnesse.slim.MethodExecutor.callMethod(MethodExecutor.java:43)
+	at fitnesse.slim.MethodExecutor.invokeMethod(MethodExecutor.java:30)
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:53)
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18)
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:189)
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:179)
+	at fitnesse.slim.Statement.callMethodAtIndex(Statement.java:104)
+	at fitnesse.slim.Statement.call(Statement.java:97)
+	at fitnesse.slim.Statement.execute(Statement.java:77)
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:36)
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:81)
+	at fitnesse.slim.SlimServer.processTheInstructions(SlimServer.java:73)
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:57)
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:43)
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:30)
+	at fitnesse.socketservice.SocketService$ServerRunner.run(SocketService.java:95)
+	at java.lang.Thread.run(Thread.java:680)
+</pre></div>
+</div></div><hr/><table border="1" cellspacing="0" _TABLENUMBER=349775011412436256>
+	<tr>
+		<td>script</td>
+		<td><span class="pass">Fixture Bibliotheque</span></td>
+		<td>Paul</td>
+		<td>Jean</td>
+	</tr>
+	<tr>
+		<td><span class="pass">Ajouter Livre</span></td>
+		<td colspan="3">def</td>
+	</tr>
+	<tr>
+		<td>Emprunt</td>
+		<td colspan="3">def</td>
+	</tr>
+	<tr>
+		<td>Emprunt</td>
+		<td colspan="3">123445</td>
+	</tr>
+	<tr>
+		<td>check</td>
+		<td>Affiche</td>
+		<td colspan="2">[Document [isbn=1234, nomAuteur=Test, emprunt=false]Document [isbn=def, nomAuteur=Test, emprunt=false]] <span class="fail">expected [kdj]</span></td>
+	</tr>
+</table>
+<br/>]]></content>
+    <relativePageName>TestAcceptance</relativePageName>
+    
+        <tables>
+            <table>
+        <name>import_0</name>
+                <row>
+                    <col><![CDATA[import]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[tests.fixtures]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_1</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+                    <col><![CDATA[pass(Fixture Bibliotheque)]]></col>
+                    <col><![CDATA[Paul]]></col>
+                    <col><![CDATA[Jean]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[pass(Ajouter Livre)]]></col>
+                    <col><![CDATA[def]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Emprunt]]></col>
+                    <col><![CDATA[def]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Emprunt]]></col>
+                    <col><![CDATA[123445]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[check]]></col>
+                    <col><![CDATA[Affiche]]></col>
+                    <col><![CDATA[[Document [isbn=1234, nomAuteur=Test, emprunt=false]Document [isbn=def, nomAuteur=Test, emprunt=false]] fail(expected [kdj])]]></col>
+          
+        </row>
+        
+      </table>
+      
+    </tables>
+    
+    
+    <instructions>
+            <instructionResult>
+        <instruction><![CDATA[[import_0_0, import, tests.fixtures]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_0, make, scriptTableActor, FixtureBibliotheque, Paul, Jean]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_1_0</instructionId>
+          <col>1</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[OK]]></actual>
+                              <expected><![CDATA[Fixture Bibliotheque]]></expected>
+                              <evaluationMessage><![CDATA[pass(Fixture Bibliotheque)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_1, call, scriptTableActor, AjouterLivre, def]]]></instruction>
+        <slimResult><![CDATA[true]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_1</instructionId>
+          <col>2</col>
+          <row>0</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[true]]></actual>
+                              <expected><![CDATA[Paul]]></expected>
+                              <evaluationMessage><![CDATA[Paul]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_1</instructionId>
+          <col>3</col>
+          <row>0</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[true]]></actual>
+                              <expected><![CDATA[Jean]]></expected>
+                              <evaluationMessage><![CDATA[Jean]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_1</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_1_1</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[true]]></actual>
+                              <expected><![CDATA[Ajouter Livre]]></expected>
+                              <evaluationMessage><![CDATA[pass(Ajouter Livre)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_2, call, scriptTableActor, Emprunt, def]]]></instruction>
+        <slimResult><![CDATA[Exception: <a href=#scriptTable_1_2>scriptTable_1_2</a>]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_2</instructionId>
+          <col>1</col>
+          <row>2</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_2</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[Exception: <a href=#scriptTable_1_2>scriptTable_1_2</a>]]></actual>
+                              <expected><![CDATA[Emprunt]]></expected>
+                              <evaluationMessage><![CDATA[Emprunt]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_3, call, scriptTableActor, Emprunt, 123445]]]></instruction>
+        <slimResult><![CDATA[Exception: <a href=#scriptTable_1_3>scriptTable_1_3</a>]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_3</instructionId>
+          <col>1</col>
+          <row>3</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_3</instructionId>
+          <col>0</col>
+          <row>3</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[Exception: <a href=#scriptTable_1_3>scriptTable_1_3</a>]]></actual>
+                              <expected><![CDATA[Emprunt]]></expected>
+                              <evaluationMessage><![CDATA[Emprunt]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_4, call, scriptTableActor, Affiche]]]></instruction>
+        <slimResult><![CDATA[Document [isbn=1234, nomAuteur=Test, emprunt=false]Document [isbn=def, nomAuteur=Test, emprunt=false]]]></slimResult>
+                <expectation>
+          <status>wrong</status>
+          <instructionId>scriptTable_1_4</instructionId>
+          <col>2</col>
+          <row>4</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[Document [isbn=1234, nomAuteur=Test, emprunt=false]Document [isbn=def, nomAuteur=Test, emprunt=false]]]></actual>
+                              <expected><![CDATA[kdj]]></expected>
+                              <evaluationMessage><![CDATA[[Document [isbn=1234, nomAuteur=Test, emprunt=false]Document [isbn=def, nomAuteur=Test, emprunt=false]] fail(expected [kdj])]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+      
+    </instructions>
+    
+  </result>
+  
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>0</totalRunTimeInMillis>
+  
+</testResults>
+

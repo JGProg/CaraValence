@@ -1,0 +1,12 @@
+\beamer@endinputifotherversion {3.20pt}
+\select@language {french}
+\beamer@sectionintoc {1}{Test d'acceptance}{5}{1}{1}
+\beamer@subsectionintoc {1}{1}{Diff\'erence entre tests unitaire et tests d'acceptances}{5}{1}{1}
+\beamer@subsectionintoc {1}{2}{Sch\'ema}{8}{1}{1}
+\beamer@sectionintoc {2}{Automatisation}{9}{1}{2}
+\beamer@subsectionintoc {2}{1}{Son utilit\'e}{9}{1}{2}
+\beamer@subsectionintoc {2}{2}{Automatisation}{10}{1}{2}
+\beamer@sectionintoc {3}{FitNesse}{11}{1}{3}
+\beamer@subsectionintoc {3}{1}{Principe}{11}{1}{3}
+\beamer@subsectionintoc {3}{2}{Mise en oeuvre}{12}{1}{3}
+\beamer@subsectionintoc {4}{2}{D\'emonstration}{13}{1}{3}
